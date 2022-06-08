@@ -1,6 +1,6 @@
-resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
-  location = "West Europe"
+resource "azurerm_resource_group" "US-WEST-Networks" {
+  name     = "RNO_HUB"
+  location = "US-WEST-01"
 }
 
 resource "azurerm_network_security_group" "example" {
